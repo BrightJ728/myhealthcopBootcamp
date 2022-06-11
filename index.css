@@ -128,6 +128,7 @@ button{
 width: 100%;
 height: 20px;
 display: inline;
+
 }
 
 .featured{
@@ -139,18 +140,40 @@ display: inline;
     color: red;
 }
 .prod-container{
-width: 92%;
-margin-left: 8%;
+width: 90%;
 }
 .prod-image{
 
-width: 28%;
+width: 100%;
 height: 250px;
+margin-left:0%;
 margin-right: 0%;
-margin-left: 2%;
+
+
 
 }
 .prod{
-    display: inline;margin-right: 0%;
+    display: inline;
+width: 100%;
+margin-left:1.5%;
+margin-right: 0%;
 
+}
+
+.prod-container{
+  display:flex;
+  margin-left:5%;
+margin-right: 5%;
+}
+figure{
+  display:block;
+}
+.price{
+    margin-top: 1%;
+    text-align: center;
+    color: rgb(39, 39, 108);
+}
+figcaption{
+    text-align: center;
+    color: rgb(67, 91, 144);
 }
