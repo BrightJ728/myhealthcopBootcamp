@@ -3,22 +3,9 @@ body{
     margin-bottom: 0%;
     margin-left: 0%;
     margin-right: 0%;
+    color: rgb(19, 19, 108);
 }
 
-
-.section-container{
-    background: linear-gradient(rgba(0, 0, 0, 0.5),
-     rgba(0, 0, 0, 0.5)), 
-     url(./image/main-bcg.jpeg) center/cover;
-     background-repeat: no-repeat;
-     min-height: 100vh;
-     color: white;
-    margin-top: 0%;
-    display: grid;
-    margin-top: -6rem;
-    place-items: center;
-
-}
 .nav-bar{
     text-decoration: none;
     position: relative;
@@ -27,9 +14,10 @@ body{
     height: 6rem;
     background: transparent;
     background-image: inherit;
-    color: white;
     display: flex;
     align-items: center;
+    color: rgb(19, 19, 108);
+
 
 }
 
@@ -39,19 +27,14 @@ body{
     transform: translate(-50%, -50%);
     left: 50%;
     top: 50%;
-    
-
-
 }
-
-
 .nav{
     width: 90vw;
     display:flex;
     
     justify-content: space-between;
     align-items: center;
-    
+    color: blue;
     
 }
 
@@ -68,24 +51,11 @@ li{
     font-size: x-large;
     margin: 0%;
     margin-bottom: 0%;
+    color: rgb(19, 19, 108);
+
     
 }
-.inner-container{
-    width: 90vw;
-    margin-left: 4%;
-}
-
-.descript{
-    padding-top: 0;
-    margin-top: 0%;
-    font-family: Brush Script MT, cursive;
-    font-weight: 700;
-    font-size: 6rem;
-    line-height: 10rem;
-    letter-spacing:5px ;
-    height: 100px;
-}
-.button{
+button{
     background: transparent;
     border: transparent;
 }
@@ -94,6 +64,7 @@ li{
     border-color: transparent;
     right: 5%;
     position: absolute;
+
 
 }
 
@@ -108,32 +79,12 @@ li{
     background: brown;
     place-items: center;
 }
-.products{
-    position: relative;
-    font-size: 25px;
-    border:1px solid;
-    border-width: 5%;
-    color:white;
-    text-decoration: none;
-    background: transparent;
-    border-radius: 2%;
-    margin-top: 5%;
-    padding: 1%;
-}
-.moto{
-    font: 1em sans-serif;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 60px;
-}
-
-
-
-
-
+a{text-decoration: none;}
 .featured-containter{
     height: 100vh;
     display: block;
     box-sizing: border-box;
+    position: absolute;
 
 }
 .f-container{ 
@@ -178,7 +129,7 @@ margin-right: 0%;
   margin-right: 5%;}
 
 @media only screen and (max-width: 800px){.prod-container{
-  display:block;
+  display:flex;
   margin-left:5%;
 margin-right: 5%;
 position: relative;
@@ -218,10 +169,11 @@ box-sizing: border-box;
   
 }
 a{
-    color: white;
     text-decoration: none;
     font-weight: bolder;
 }
 
 
-
+.second-section{
+    margin-bottom: 25%;
+}
