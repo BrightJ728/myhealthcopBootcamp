@@ -144,10 +144,15 @@ margin-left:1.5%;
 margin-right: 0%;
 
 }
+.div{
+  display: block;
+}
 .prod-container{
     display:flex;
     margin-left:5%;
-  margin-right: 5%;}
+  margin-right: 5%;
+
+}
 
 @media only screen and (max-width: 800px){.prod-container{
   display:flex;
@@ -168,7 +173,8 @@ figure{
 }
 figcaption{
     text-align: center;
-    color: rgb(109, 122, 133);}
+    color: rgb(109, 122, 133);
+  }
 
 
 .container{
@@ -201,10 +207,7 @@ a{
     text-transform: capitalize;
 }
 }
-.second-section{
-    margin-bottom: 30%;
-    margin-top: 5%;
-}
+
 
 @media only screen and (max-width: 1000px){.second-section{
     display:flex; 
@@ -221,8 +224,7 @@ width: cover;
     height: 250px;
     margin-left:0%;
     margin-right: 2%;
-    display: block;
-    
+ 
     }
 
   
@@ -471,3 +473,71 @@ margin-right: 10%;
     margin-left: 10%;
     }
     }
+
+
+   
+
+   figure{
+    display: block;
+   }
+   .container{
+    display: grid;
+   }
+ 
+   .prod-container{
+    position: flex;
+    margin-left: 15%;
+    margin-top: 5%;
+    flex-wrap: wrap;
+    overflow: hidden;
+   }
+   .prod-image {
+    height: 15rem;
+    object-fit: cover;
+flex-wrap: wrap;  }
+
+  @media only screen and (max-width: 1000px){.prod-container{
+    display:block;
+    margin-left:5%;
+  margin-right: 5%;
+  position: relative;
+  height: 800px;
+  width: cover;
+  margin-left: 25%;
+
+  }
+  }
+
+  @media only screen and (max-width: 1000px){.menu-section{
+    display:block;
+
+  position: relative;
+  height: 80px;
+  width: cover;
+  }
+  }
+
+  @media screen and (min-width: 992px) {
+    .prod-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+    }
+    .prod-container .prod-image {
+      height: 10rem;
+    }
+  
+    .prod-container .price {
+      font-size: 0.85rem;
+    }
+  }
+  @media screen and (min-width: 1170px) {
+    .prod-container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+
+  *{
+    transition: all 0.2s linear;
+  }

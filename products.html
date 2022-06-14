@@ -26,7 +26,7 @@
 
         </ul>
         </div>
-        <image  src="https://vanilla-js-store.git lognetlify.app/images/logo-black.svg"class="logo"   alt="Comfy"/>
+        <image  src="https://vanilla-js-store.netlify.app/images/logo-black.svg"class="logo"   alt="Comfy"/>
         <div class="cart">
             <button >
                 <i href="" class="fa fa-shopping-cart" style="font-size:48px;color:rgb(10, 10, 40)"></i>
@@ -40,25 +40,25 @@
       
 
     </div>
-    <div class="products-container">
+ <div class="products-container">
 
-<div class="menu-container" >
-<div class="menu-section" >
+    <div class="menu-container" >
+      <div class="menu-section" >
        <div class="menu-links">
         
     <ul >
         <form class="form-search">
-            <input type="text" class="search-text" placeholder="Search ..." >
+            <input type="text" id="search-box" class="search-text" placeholder="Search ..." >
         </form>
         <h4>Company</h4>
 
-        <li> <a href="products.html">All</a>  </li>
+        <li> <a class="" href="products.html">All</a>  </li>
         <br>
-        <li><a href="">Ikea</a></li>
+        <li><a href="" onclick="filterSelection('Ikea')" id="Ikea">Ikea</a></li>
 
-        <li><a href="">Marcos</a></li>
-        <li><a href="">Caressa</a></li>
-        <li><a href="">Loddy</a></li>
+        <li><a href="" onclick="filterSelection('Marcos')"  id="Marcos">Marcos</a></li>
+        <li><a href=""  onclick="filterSelection('Caressa')" id="Caressa">Caressa</a></li>
+        <li><a href="" id="Loddy" onclick="filterSelection('Loddy')">Loddy</a></li>
         <h4>Price</h4>
 
     </ul>
@@ -69,189 +69,197 @@
     
 </div>
 <div class="menu-container">
-    <div class="second-section">
- 
-        <section class="featured-container">
-           <div class="f-container">
-         
-               <div class="prod-container">
-                   <div class="prod" >
-                       <div class="container">
-    
-                   <img id="Ikea" class="prod-image img" src="./image/high-black.jpg">
-                   <div class="product-icons">
-                    <a href="products.html" class="product-icon">
-                      <i class="fas fa-search"></i>
-                    </a>
-                    <button class="cart-btn product-icon" >
-                      <i class="fas fa-shopping-cart"></i>
-                    </button>
-                  </div>
-                   <figcaption>High-Back Bench</figcaption>
-                   <h4 class="price">$9.99</h4>
-                       </div>
-                   </div>
-                       <div class="prod" >
-                           <div class="container">
-   
-                   <img  id="Marcos"class="prod-image img" src="./image/utopia.jpg">
-                   <div class="product-icons">
-                    <a href="products.html" class="product-icon">
-                      <i class="fas fa-search"></i>
-                    </a>
-                    <button class="cart-btn product-icon" >
-                      <i class="fas fa-shopping-cart"></i>
-                    </button>
-                  </div>
-                      <figcaption>Utopia Sofa</figcaption>
-                      <h4 class="price">$39.95</h4>
-               </div>
-           </div>
-                   <div class="prod" >
-                       <div class="container">
-   
-                   <img id="Ikea" class = "prod-image img"src="./image/entertain.jpg">
-                   <div class="product-icons">
-                    <a href="products.html" class="product-icon">
-                      <i class="fas fa-search"></i>
-                    </a>
-                    <button class="cart-btn product-icon" >
-                      <i class="fas fa-shopping-cart"></i>
-                    </button>
-                  </div>
-                       <figcaption>Entaitainment Center</figcaption>
-                       <h4 class="price">$29.98</h4>
-                       </div>
-                   </div>
-           
-               </div>
-              
-           </div>
-        </section>
-   </div>
-   
-   <div class="second-section">
-    
-       <section class="featured-container">
-          <div class="f-container">
-        
-              <div class="prod-container">
-                  <div class="prod" >
-                      <div class="container">
-   
-                  <img id="Marcos" class="prod-image img" src="./image/high-black.jpg">
-                  <div class="product-icons">
-                    <a href="" class="product-icon">
-                      <i class="fas fa-search"></i>
-                    </a>
-                    <button class="cart-btn product-icon" >
-                      <i class="fas fa-shopping-cart"></i>
-                    </button>
-                  </div>
-                  <figcaption>High-Back Bench</figcaption>
-                  <h4 class="price">$9.99</h4>
-                      </div>
-                  </div>
-                      <div class="prod" >
-                          <div class="container">
-   
-                  <img class="prod-image img" src="./image/utopia.jpg">
-                  <div class="product-icons">
-                    <a href="" class="product-icon">
-                      <i class="fas fa-search"></i>
-                    </a>
-                    <button class="cart-btn product-icon" >
-                      <i class="fas fa-shopping-cart"></i>
-                    </button>
-                  </div>
-                     <figcaption>Utopia Sofa</figcaption>
-                     <h4 class="price">$39.95</h4>
-              </div>
-          </div>
-                  <div class="prod" >
-                      <div class="container">
-   
-                  <img  class = "prod-image img"src="./image/entertain.jpg">
-                  <div class="product-icons">
-                    <a href="" class="product-icon">
-                      <i class="fas fa-search"></i>
-                    </a>
-                    <button class="cart-btn product-icon" >
-                      <i class="fas fa-shopping-cart"></i>
-                    </button>
-                  </div>
-                      <figcaption>Entaitainment Center</figcaption>
-                      <h4 class="price">$29.98</h4>
-                      </div>
-                  </div>
-          
-              </div>
-             
-          </div>
-       </section>
-   </div>
-   <div class="second-section">
-    
-       <section class="featured-container">
-          <div class="f-container">
-        
-              <div class="prod-container">
-                  <div class="prod" >
-                      <div class="container">
-   
-                  <img class="prod-image img" src="./image/high-black.jpg">
-                  <div class="product-icons">
-                    <a href="" class="product-icon">
-                      <i class="fas fa-search"></i>
-                    </a>
-                    <button class="cart-btn product-icon" >
-                      <i class="fas fa-shopping-cart"></i>
-                    </button>
-                  </div>
-                  <figcaption>High-Back Bench</figcaption>
-                  <h4 class="price">$9.99</h4>
-                      </div>
-                  </div>
-                      <div class="prod" >
-                          <div class="container">
-   
-                  <img class="prod-image img" src="./image/utopia.jpg">
-                  <div class="product-icons">
-                    <a href="" class="product-icon">
-                      <i class="fas fa-search"></i>
-                    </a>
-                    <button class="cart-btn product-icon" >
-                      <i class="fas fa-shopping-cart"></i>
-                    </button>
-                  </div>
-                     <figcaption>Utopia Sofa</figcaption>
-                     <h4 class="price">$39.95</h4>
-              </div>
-          </div>
-          <div class="prod" >
-            <div class="container">
+  <section class="featured-container">
+    <div class="f-container">
+  
+        <div class="prod-container">
+            <figure class="prod" >
+                <div class="container" data-title="Ikea">
 
-        <img  class = "prod-image img"src="./image/entertain.jpg">
-        <div class="product-icons">
-          <a href="" class="product-icon">
-            <i class="fas fa-search"></i>
-          </a>
-          <button class="cart-btn product-icon" >
-            <i class="fas fa-shopping-cart"></i>
-          </button>
-        </div>
-            <figcaption>Entaitainment Center</figcaption>
-            <h4 class="price">$29.98</h4>
-            </div>
-        </div>
-          
+            <img class="prod-image img" src="./image/high-black.jpg">
+            <div class="product-icons">
+                <a href="products.html" class="product-icon">
+                  <i class="fas fa-search"></i>
+                </a>
+                <button class="cart-btn product-icon" >
+                  <i class="fas fa-shopping-cart"></i>
+                </button>
               </div>
-             
-          </div>
-       </section>
-   </div>
+            <figcaption>High-Back Bench</figcaption>
+            <h4 class="price">$9.99</h4>
+                </div>
+        </figure>
+                <figure class="prod" >
+                    <div class="container" data-title="Ikea">
+
+            <img class="prod-image img" src="./image/utopia.jpg">
+            <div class="product-icons">
+                <a href="products.html" class="product-icon">
+                  <i class="fas fa-search"></i>
+                </a>
+                <button class="cart-btn product-icon" >
+                  <i class="fas fa-shopping-cart"></i>
+                </button>
+              </div>  
+            <figcaption>Utopia Sofa</figcaption>
+               <h4 class="price">$39.95</h4>
+        </div>
+        </figure>
+            <figure class="prod" >
+                <div class="container" data-title="Ikea">
+
+            <img  class = "prod-image img"src="./image/entertain.jpg">
+            <div class="product-icons">
+                <a href="products.html" class="product-icon">
+                  <i class="fas fa-search"></i>
+                </a>
+                <button class="cart-btn product-icon" >
+                  <i class="fas fa-shopping-cart"></i>
+                </button>
+              </div>
+                <figcaption>Entaitainment Center</figcaption>
+                <h4 class="price">$29.98</h4>
+                </div>
+        </figure>
+    
+
+        <figure class="prod" >
+          <div class="container" data-title="Marcos">
+
+  <img class="prod-image img" src="./image/utopia.jpg">
+  <div class="product-icons">
+      <a href="products.html" class="product-icon">
+        <i class="fas fa-search"></i>
+      </a>
+      <button class="cart-btn product-icon" >
+        <i class="fas fa-shopping-cart"></i>
+      </button>
+    </div>  
+  <figcaption>Utopia Sofa</figcaption>
+     <h4 class="price">$39.95</h4>
 </div>
+</figure>
+  <figure class="prod" >
+      <div class="container" data-title="Marcos">
+
+  <img  class = "prod-image img"src="./image/entertain.jpg">
+  <div class="product-icons">
+      <a href="products.html" class="product-icon">
+        <i class="fas fa-search"></i>
+      </a>
+      <button class="cart-btn product-icon" >
+        <i class="fas fa-shopping-cart"></i>
+      </button>
+    </div>
+      <figcaption>Entaitainment Center</figcaption>
+      <h4 class="price">$29.98</h4>
+      </div>
+</figure>
+<figure class="prod" >
+  <div class="container" data-title="Marcos">
+
+<img class="prod-image img" src="./image/utopia.jpg">
+<div class="product-icons">
+<a href="products.html" class="product-icon">
+<i class="fas fa-search"></i>
+</a>
+<button class="cart-btn product-icon" >
+<i class="fas fa-shopping-cart"></i>
+</button>
+</div>  
+<figcaption>Utopia Sofa</figcaption>
+<h4 class="price">$39.95</h4>
+</div>
+</figure>
+
+<figure class="prod" >
+<div class="container" data-title="Caressa">
+
+<img  class = "prod-image img"src="./image/entertain.jpg">
+<div class="product-icons">
+<a href="products.html" class="product-icon">
+<i class="fas fa-search"></i>
+</a>
+<button class="cart-btn product-icon" >
+<i class="fas fa-shopping-cart"></i>
+</button>
+</div>
+<figcaption>Entaitainment Center</figcaption>
+<h4 class="price">$29.98</h4>
+</div>
+</figure>
+
+<figure class="prod" >
+  <div class="container" data-title="Caressa">
+
+<img class="prod-image img" src="./image/utopia.jpg">
+<div class="product-icons">
+<a href="products.html" class="product-icon">
+<i class="fas fa-search"></i>
+</a>
+<button class="cart-btn product-icon" >
+<i class="fas fa-shopping-cart"></i>
+</button>
+</div>  
+<figcaption>Utopia Sofa</figcaption>
+<h4 class="price">$39.95</h4>
+</div>
+</figure>
+
+
+<figure class="prod" >
+<div class="container" data-title="Caressa">
+
+<img   class = "prod-image img"src="./image/entertain.jpg">
+<div class="product-icons">
+<a href="products.html" class="product-icon">
+<i class="fas fa-search"></i>
+</a>
+<button class="cart-btn product-icon" >
+<i class="fas fa-shopping-cart"></i>
+</button>
+</div>
+<figcaption>Entaitainment Center</figcaption>
+<h4 class="price">$29.98</h4>
+</div>
+</figure>
+
+        </div>
+        
+    </div>
+ </section>
+    </div>
     </div>
     
+    <script>
+
+      let searchBox = document.querySelector('#search-box');
+      let images = document.querySelectorAll('  .menu-links .prod, .container');
+      searchBox.oninput = () =>{
+         images.forEach(hide => hide.style.display = 'none');
+         let value = searchBox.value;
+         images.forEach(filter =>{
+            let title = filter.getAttribute('data-title');
+            if(value == title){
+               filter.style.display = 'block';
+             
+             
+               
+            }
+            if(searchBox.value == ''){
+               filter.style.display = 'inline';
+               filter.style.position='relative';
+               filter.style.left = '2px';
+               filter.style.top = '2px';
+               
+             
+            }
+          
+         });
+      };
+
+     
+      </script>
+      
      </body>
      </html>
