@@ -6,16 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Comfy</title>
     <link  rel="stylesheet" href="./index.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <script src="./index.js"></script>
+
 </head>
 <body>
     
             <div class="nav-bar" >
                 <div class="nav">
                 <ul class="links">
-                    <li> <a href="index.html">Home</a>  </li>
-                    <li><a href="products.html">Products</a></li>
-                    <li><a href="About.html">About</a></li>
+                    
+                  <button   class="toggle-nav">
+                <i class="fas fa-bars">
+                </i>
+            
+                </button>  
+                  <li> <a class="nav-link"  href="index.html">Home</a>  </li>
+                    <li><a class="nav-link" href="products.html">Products</a></li>
+                    <li><a class="nav-link" href="About.html">About</a></li>
 
                 </ul>
                 </div>
@@ -30,14 +39,13 @@
             </div>
             <section class="section-container">
             <div class="inner-container">
-            <h1 class="descript">Rest, Relax, Unwind</h1>
-            <h3 class="moto">Embrace your choices -we do</h3>
+           <div class="d-word"> <h1 class="descript">Rest, Relax, Unwind</h1>
             
-            <a href="#" class="products">Show More</a>
+           </div><h3 class="moto">Embrace your choices -we do</h3>
+            
+            <a href="products.html" class="products">Show More</a>
             </div>
     </section>
-
-
 
     <section class="featured-container">
         <div class="f-container">
@@ -71,8 +79,11 @@
             </figure>
         
             </div>
+            <div class="all-products">
+           <a class="all-prod" href="products.html">ALL PRODUCTS</a>
+        </div>
         </div>
      </section>
-
+<script type="module" src="index.js"></script>
         </body>
 </html>

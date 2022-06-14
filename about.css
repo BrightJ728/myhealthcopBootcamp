@@ -34,7 +34,7 @@ body{
     position: absolute;
     margin-top: 0%;
     transform: translate(-50%, -50%);
-    left: 50%;
+    left: 65%;
     top: 50%;
 }
 .nav{
@@ -75,15 +75,49 @@ button{
 }
 
 .count{
-    position: absolute;
+  position: absolute;
     border-radius: 50%;
     top: -0.5rem;
     right: -0.5rem;
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.6rem;
+    height: 1.7rem;
     display: grid;
-    background: brown;
+    background: rgb(157, 80, 28);
     place-items: center;
+    text-align: center;
+    padding-bottom: 4%;
 }
-a{text-decoration: none;}
+a{text-decoration: none;
+}
 
+p{
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h2{
+    text-align: center;
+    font-size: xx-large;
+}
+
+
+.title{
+    margin-bottom: 2%;
+    background-color: rgb(237, 240, 241);
+    padding-bottom:1%;
+    padding-top: 1%;
+    padding-left: 10%;
+    display: block;
+    color: rgb(137, 167, 192);
+    position: relative;
+    font-size: 1rem;
+    margin-bottom: 10%;
+}
+
+
+body{
+  color: rgb(77, 111, 123);
+  line-height: 2rem;
+  letter-spacing: 0.05rem;
+}
